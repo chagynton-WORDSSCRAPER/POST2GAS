@@ -1,0 +1,14 @@
+{
+    "name": "POST2GAS",
+    "description": "",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": 
+      {
+        "service_worker": "BackgroundSetContext.js",
+        "type": "module"
+      }
+    ,
+    "permissions": ["contextMenus"],
+    "host_permissions":["https://script.google.com/"]
+  }
